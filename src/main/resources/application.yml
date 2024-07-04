@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+
+  profiles:
+    include: oauth, h2
+
+server:
+  servlet:
+    encoding:
+      force-response: true
